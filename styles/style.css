@@ -1,0 +1,12 @@
+/*** estilo de mi pag **/
+body{background-image: url("../images/haciendaelpatron.jpg");
+    background-size: 300px;
+}
+#container {background-color: white;
+            width: 90%;
+            margin: auto;
+            margin-top: 5%;
+            box-sizing: border-box;
+            padding: 40px;
+        
+        }
