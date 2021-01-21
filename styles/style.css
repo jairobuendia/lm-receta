@@ -7,7 +7,32 @@ body{background-image: url("../images/haciendaelpatron.jpg");
             margin: auto;
             margin-top: 5%;
             box-sizing: border-box;
+            box-shadow:  10px 10px 20px black;
             padding: 40px;
+            border-radius: 20px;
         
         }
 h1{text-align: center;}
+
+h1, h2{color: gray;
+        text-decoration: underline;}
+
+dt{text-transform: uppercase;
+    font-weight: bold;
+    color: lightblues;
+    padding: 10px;}
+
+#tartaInicio{width: 30%;
+            float: right;}
+
+
+/************** MEDIA QUERYS ***************/
+@media only screen and (max-width:600px) {
+    #tartaInicio{width: 100%;
+                padding-right: 0;}
+    #container{width: 100%;}
+}
+
+@media only screen and (max-width:1000px) {
+    dt{font-size: 41.5em;}
+}
